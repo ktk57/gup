@@ -1,0 +1,15 @@
+[Global]
+Port = ":80"
+StatsEnabled = false
+LoggingEnabled   = false
+DeleteOldCookies = true
+ErrorFilePath = /home/http/error_gup.log
+DBHost           = "127.0.0.1:3306"
+DBUser           = "kdbuser"
+DBPass           = "KdBuSeR12!"
+DBRefreshPeriod  = 300 #In seconds
+[Stats]
+Server = "172.16.4.115"
+Port = 4567
+StatsCounter = 10
+DCName = "NYC"
